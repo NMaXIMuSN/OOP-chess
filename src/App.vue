@@ -1,18 +1,55 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <img
+    alt="Vue logo"
+    src="./assets/bishop.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/king.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/knight.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/pawn.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/queen.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/rook.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/bishop_white.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/king_white.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/knight_white.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/pawn_white.svg"
+  >
+  <img
+    alt="Vue logo"
+    src="./assets/queen_white.svg"
+  ><img
+    alt="Vue logo"
+    src="./assets/rook_white.svg"
+  >
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+<script lang="ts" setup>
 
-export default defineComponent({
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-});
 </script>
 
 <style lang="scss">
